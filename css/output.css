@@ -44,6 +44,7 @@
   top: 0; /* Stick the navbar to the top */
   background-color: #ffffff;
   z-index: 1000;
+  
   transition: top 0.3s; /* Add smooth transition */
 }
 
@@ -259,14 +260,16 @@ select {
 
 button,
 [type="button"],
-[type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
   /* 1 */
-  background-color: transparent;
+  background-color: rgb(131 133 144 / var(--tw-bg-opacity));
   /* 2 */
   background-image: none;
   /* 2 */
+
+  padding: 0.5rem 1rem; /* Adjust padding */
+  font-size: 0.8rem; /* Adjust font size */
 }
 
 /*
